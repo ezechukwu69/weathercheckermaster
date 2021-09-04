@@ -258,21 +258,15 @@ class _HomePageState extends State<HomePage> {
                                                   Expanded(
                                                     child: weatherValueWithData(
                                                       name: "Min",
-                                                      value: _controller
-                                                          .response
-                                                          ?.daily?[index]
-                                                          .temp
-                                                          ?.min,
+                                                      value:
+                                                          "${_controller.response?.daily?[index].temp?.min} ${_controller.getSymbol()}",
                                                     ),
                                                   ),
                                                   Expanded(
                                                     child: weatherValueWithData(
                                                       name: "Max",
-                                                      value: _controller
-                                                          .response
-                                                          ?.daily?[index]
-                                                          .temp
-                                                          ?.max,
+                                                      value:
+                                                          "${_controller.response?.daily?[index].temp?.max} ${_controller.getSymbol()}",
                                                     ),
                                                   ),
                                                   Expanded(
