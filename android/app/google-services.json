@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "191867170660",
+    "project_id": "weathercheckermaster-3f632",
+    "storage_bucket": "weathercheckermaster-3f632.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191867170660:android:9c5731776442a42bb41471",
+        "android_client_info": {
+          "package_name": "com.example.weathercheckermaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191867170660-dvgviihnpvli9t59q1btfk23dp56n4ek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weathercheckermaster",
+            "certificate_hash": "c23a1a1751fb011f5e120e20b54931016f436309"
+          }
+        },
+        {
+          "client_id": "191867170660-04un35bnb6di9gaq5mvb1p02aqp2h88k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoNfcDgYfn2KerpsdlwcIwDn4xkWRFwsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191867170660-04un35bnb6di9gaq5mvb1p02aqp2h88k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "191867170660-rkv4l0sgcl51oo8vkseq6ll1fqm2r644.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.weathercheckermaster"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
